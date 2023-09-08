@@ -1,3 +1,5 @@
+https://malheirosprojects.space/Clima
+
 # Weather Lookup Application
 
 The Weather Lookup Application is a simple web application built using JavaScript, HTML, CSS, and PHP. It allows users to check the weather conditions in various cities. The application leverages external APIs to retrieve weather information and display city flags.
