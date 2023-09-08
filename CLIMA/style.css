@@ -1,0 +1,105 @@
+/* Geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Tektur', cursive, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(233deg, #380952 0%, #0339FF 49%, #D80E0E 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    background: blue;
+    box-shadow: black 0px 3px 8px;
+    padding: 2rem;
+    color: white;
+    border-radius: 3rem;
+}
+
+/* Form */
+
+.form h1 {
+    margin-bottom: 1rem;
+}
+
+.form-input-container {
+    display: flex;
+}
+
+.form input {
+    padding: .8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.form button {
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background: #8dd0f5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Clima */
+
+#weather-data {
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#weather-data h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+
+#weather-data h2 i {
+    font-size: 1rem;
+}
+
+#weather-data span {
+    margin: .6rem;
+}
+
+#description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#description {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #humidity {
+    border-right: 3px solid red;
+    margin: .6rem;
+    padding: .6rem;
+}
