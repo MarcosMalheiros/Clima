@@ -1,4 +1,4 @@
-https://malheirosprojects.space/Clima
+https://malheiros.dev/Clima
 
 # Weather Lookup Application
 
